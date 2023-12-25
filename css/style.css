@@ -1,0 +1,85 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.body {
+    max-width: 1400px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.navigation {
+    height: 60px;
+    text-align: center;
+}
+
+.logo {
+    width: 75px;
+    height: 60px;
+    margin-left: 70px;
+    float: left;
+}
+
+.navigationList {
+    list-style: none;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.listItem {
+    margin-top: 25px;
+}
+
+.navigationLinkItem {
+    color: #000;
+    text-decoration: none;
+}
+
+.navigationLinkItem:focus {
+    color: #1A7F72;
+    outline: 2px solid currentColor;
+}
+
+.navigationLinkItem:hover {
+    color: #1A7F72;
+    border-bottom: 2px solid #1A7F72;
+}
+
+.homeSection {
+    background-image: url("/images/MainBackground.png");
+    background-size: cover;
+    background-position: top;
+    
+    text-align: center;
+    margin-top: -21px;
+}
+
+.mainHeader {
+    font-family: 'Merienda', cursive;
+    font-weight: 400;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.sectionContent {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    color: #1A7F72;
+}
+
+.startButton {
+    width: 150px;
+    height: 35px;
+    text-align: center;
+    border: none;
+    border-radius: 50px;
+    background-color: #1A7F72;
+    color: #fff;
+}
