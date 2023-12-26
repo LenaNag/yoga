@@ -53,7 +53,7 @@ html {
 }
 
 .homeSection {
-    background-image: url("/images/MainBackground.png");
+    background-image: url("../images/MainBackground.png");
     background-size: cover;
     background-position: top;
     
