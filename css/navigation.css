@@ -1,0 +1,32 @@
+.navigation {
+    height: 60px;
+    text-align: center;
+}
+
+.navigation__list {
+    list-style: none;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.navigation__listItem {
+    margin-top: 25px;
+}
+
+.navigation__linkItem {
+    color: #000;
+    text-decoration: none;
+}
+
+.navigation__linkItem:focus {
+    color: #1A7F72;
+    outline: 2px solid currentColor;
+}
+
+.navigation__linkItem:hover {
+    color: #1A7F72;
+    border-bottom: 2px solid #1A7F72;
+}
