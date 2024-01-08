@@ -1,0 +1,17 @@
+.section__article {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.section__article--meditation {
+    background-image: url("../images/meditation_section_background.png");
+}
+
+.section__article--yoga {
+    background-image: url("../images/yoga_section_background.png");
+}
+
+.section__article--sound {
+    background-image: url("../images/sound_section_background.png");
+}
