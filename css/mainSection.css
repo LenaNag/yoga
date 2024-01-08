@@ -1,6 +1,6 @@
 .mainSection {
     background-image: url("../images/MainBackground.png");
-    background-size: cover;
+    background-size: contain;
     background-position: top;
     text-align: center;
     margin-top: -21px;
