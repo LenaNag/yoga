@@ -9,9 +9,10 @@
 
 .mainSection__header {
     font-family: 'Merienda', cursive;
+    font-size: 45px;
     font-weight: 400;
     color: #fff;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 .mainSection__content {
