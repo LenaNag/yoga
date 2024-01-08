@@ -1,17 +1,26 @@
-.section__article {
+.section {
+    min-height: 700px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
+    align-items: stretch;
+    padding: 10px;
+    margin: 10px;
+}
+.section__article {
+    
 }
 
 .section__article--meditation {
     background-image: url("../images/meditation_section_background.png");
+    background-repeat: no-repeat;
 }
 
 .section__article--yoga {
     background-image: url("../images/yoga_section_background.png");
+    background-repeat: no-repeat;
 }
 
 .section__article--sound {
     background-image: url("../images/sound_section_background.png");
+    background-repeat: no-repeat;
 }
