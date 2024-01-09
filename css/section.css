@@ -11,12 +11,12 @@
     max-width: 500px;
     background-repeat: no-repeat;
     background-position: top;
-    padding: 10px;
+    padding: 30px;
     margin: 10px;
 }
 
 .section__image {
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .section__article--meditation {
@@ -30,4 +30,13 @@
 
 .section__article--sound {
     background-image: url("../images/sound_section_background.png");
+}
+
+.section__button {
+    border: none;
+    background-color: #1A7F72;
+    color: white;
+    border-radius: 50px;
+    padding: 10px 30px;
+    margin-top: 15px;
 }
