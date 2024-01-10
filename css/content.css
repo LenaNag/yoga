@@ -7,3 +7,11 @@
     text-align: center;
     line-height: 1.6;
 }
+
+.header {
+    font-family: 'Merienda', cursive;
+    font-size: 45px;
+    font-weight: 400;
+    color: #000;
+    padding-top: 30px;
+}
